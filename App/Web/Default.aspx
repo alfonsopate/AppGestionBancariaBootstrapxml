@@ -1,19 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="App.Web.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Web/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="App.Web.Default" %>
+<asp:Content ID="Content3" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-        <asp:Label ID="Label1" runat="server"></asp:Label>
-    
-    </div>
-    </form>
-</body>
-</html>
+<div class="jumbotron">
+        <h1>Gestion Bancaria</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p>
+            <a class="btn btn-lg btn-success" href="Crear.aspx" role="button">Crear</a>
+            <a class="btn btn-lg btn-success" href="Listar.aspx" role="button">Listar</a>
+        </p>
+      </div>
+</asp:Content>
